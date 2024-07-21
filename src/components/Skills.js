@@ -3,8 +3,8 @@ import React from 'react';
 import '../style/Skills.css';
 import { useInView } from 'react-intersection-observer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJs, faBootstrap, faPhp, faJava, faReact, faNodeJs, faPython, faHtml5, faCss3Alt, faGitAlt, faJoomla, faWordpress } from '@fortawesome/free-brands-svg-icons';
-import { faDatabase, faPalette, faLaptopCode, faClipboardList, faProjectDiagram, faBusinessTime, faChartLine, faTasks, faFileAlt, faFileSignature, faEnvelopeOpenText, faComments, faUserGraduate, faUsers } from '@fortawesome/free-solid-svg-icons';
+import { faJs, faBootstrap, faPhp, faJava,  faJoomla,  } from '@fortawesome/free-brands-svg-icons';
+import { faDatabase, faPalette, faLaptopCode, faProjectDiagram,  faChartLine, faTasks, faFileAlt, faFileSignature, faComments, faUserGraduate, faUsers } from '@fortawesome/free-solid-svg-icons';
 
 const Skills = () => {
   const { ref, inView } = useInView({
