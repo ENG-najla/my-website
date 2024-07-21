@@ -1,0 +1,77 @@
+/* src/style/Experience.css */
+.experience-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .experience-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .experience-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .experience-company {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .experience-duration, .experience-role {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .experience-duties {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .experience-duties li {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .experience-title {
+      font-size: 2em;
+    }
+  
+    .experience-item {
+      padding: 15px;
+    }
+  
+    .experience-company {
+      font-size: 1.3em;
+    }
+  
+    .experience-duration, .experience-role {
+      font-size: 1em;
+    }
+  
+    .experience-duties li {
+      font-size: 0.9em;
+    }
+  }
+  

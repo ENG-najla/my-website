@@ -1,0 +1,77 @@
+/* src/style/Skills.css */
+.skills-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .skills-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-direction: column; /* Change to column for vertical alignment */
+    align-items: center; /* Center the skills list */
+    justify-content: center; /* Center the skills list */
+    gap: 20px;
+  }
+  
+  .skills-list {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 100%;
+    max-width: 500px; /* Limit max-width for better centering */
+  }
+  
+  .skills-list h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center; /* Center the heading text */
+  }
+  
+  .skills-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skill-item {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center skill items horizontally */
+    color: #666;
+  }
+  
+  .skill-icon {
+    margin-right: 10px;
+    color: #007bff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .skills-title {
+      font-size: 2em;
+    }
+  
+    .skills-list {
+      text-align: center; /* Center text for smaller screens */
+    }
+  
+    .skill-item {
+      font-size: 1em;
+    }
+  
+    .skills-list h3 {
+      font-size: 1.3em;
+    }
+  }
+  
