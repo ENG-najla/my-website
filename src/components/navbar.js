@@ -14,7 +14,7 @@ const Header = () => {
       <div className="intro">
         <h1>Welcome to My Portfolio</h1>
       </div>
-      <a href="/" className="toggle-button" onClick={toggleNav}>
+      <a href="s" className="toggle-button" onClick={toggleNav}>
         <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>
