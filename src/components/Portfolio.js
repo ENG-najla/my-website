@@ -7,9 +7,11 @@ import screen3 from '../images/screen_3.png';
 import screen4 from '../images/screen_4.png';
 import screen5 from '../images/screen_5.png';
 import calendar from '../images/calender.jfif';
-import ecommerce1 from '../images/screeny1.png'; // Add your images here
-import ecommerce2 from '../images/screeny2.png'; // Add your images here
-import ecommerce3 from '../images/screeny3.png'; // Add your images here
+import ecommerce1 from '../images/screeny1.png'; 
+import ecommerce2 from '../images/screeny2.png'; 
+import ecommerce3 from '../images/screeny3.png'; 
+import website1 from '../images/image.png'; // Add your website project images here
+
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
@@ -22,29 +24,34 @@ const Portfolio = () => {
   const projects = [
     {
       title: 'Movie Database',
-      description: 'The Movie Database is a popular project that involves building a web application for browsing and searching for movies. It allows users to view details about a movie, including its rating, cast, and plot. This project will teach you how to work with APIs, implement search and filtering, and create dynamic components.',
+      description: 'The Movie Database project involves building a web application to browse and search for movies. Users can view movie details, ratings, cast, and plot. This project teaches working with APIs, implementing search and filtering, and creating dynamic components, ensuring a comprehensive learning experience.',
       image: movie,
       link: 'https://github.com/ENG-najla/React-movie-app-main'
     },
     {
       title: 'Expense Tracker',
-      description: 'The Expense Tracker is a practical project that involves building a web application for tracking expenses. It allows users to input and categorize expenses, view spending trends, and generate reports. You will learn how to manage state, work with forms, and implement data visualization after doing this project.',
+      description: 'The Expense Tracker project involves building a web app to track expenses. Users can input, categorize expenses, view trends, and generate reports. This project helps in learning state management, working with forms, and data visualization, providing practical experience in managing user inputs and data presentation.',
       images: [screen3, screen4, screen5],
       link: 'https://github.com/ENG-najla/expense-tracker-react-master'
     },
     {
       title: 'Calendar Application',
-      description: 'The Calendar application is a practical project that involves building a web application for managing events and appointments. It allows users to create, view, and edit events on a calendar. This project will help you to work with dates and times in a React application.',
+      description: 'The Calendar Application project involves creating a web app for managing events and appointments. Users can create, view, and edit events on a calendar. This project helps in working with dates and times in React, offering a comprehensive understanding of handling dynamic data in a user-friendly interface.',
       image: calendar,
       link: 'https://github.com/ENG-najla/react-calendar-main/tree/main'
     },
     {
       title: 'E-Commerce Website',
-      description: 'The E-Commerce Website is a comprehensive project that involves building a web application for an online store. It allows users to browse products, add them to a cart, and proceed to checkout. This project will help you learn about state management, routing, and working with external APIs in React.',
+      description: 'The E-Commerce Website project involves building a comprehensive online store application. Users can browse products, add to cart, and checkout. This project teaches state management, routing, and working with external APIs in React, providing a full-stack development experience in building e-commerce solutions.',
       images: [ecommerce1, ecommerce2, ecommerce3],
       link: 'https://github.com/ENG-najla/E-commerce-Website'
+    },
+    {
+      title: 'Personal Website',
+      description: 'The Personal Website project showcases a professional portfolio, blog, and contact information. It demonstrates skills in creating a professional online presence using modern web technologies, ensuring a comprehensive understanding of front-end development and user interface design, essential for personal branding.',
+      images: [website1],
+      link: 'https://github.com/ENG-najla/my-website/tree/main'
     }
-    // Add more projects as needed
   ];
 
   return (
