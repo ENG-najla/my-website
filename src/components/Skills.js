@@ -3,8 +3,8 @@ import React from 'react';
 import '../style/Skills.css';
 import { useInView } from 'react-intersection-observer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJs, faBootstrap, faPhp, faJava,  faJoomla,  } from '@fortawesome/free-brands-svg-icons';
-import { faDatabase, faPalette, faLaptopCode, faProjectDiagram,  faChartLine, faTasks, faFileAlt, faFileSignature, faComments, faUserGraduate, faUsers } from '@fortawesome/free-solid-svg-icons';
+import { faJs, faBootstrap, faPhp, faJava, faJoomla, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faDatabase, faPalette, faLaptopCode, faProjectDiagram, faChartLine, faTasks, faFileAlt, faFileSignature, faComments, faUserGraduate, faUsers } from '@fortawesome/free-solid-svg-icons';
 
 const Skills = () => {
   const { ref, inView } = useInView({
@@ -23,6 +23,7 @@ const Skills = () => {
     { name: 'C#', icon: faLaptopCode },
     { name: 'Graphic Design (Photoshop)', icon: faPalette },
     { name: 'SQL & Data Analysis', icon: faDatabase },
+    { name: 'React', icon: faReact }, // Added React skill
   ];
 
   const softSkills = [

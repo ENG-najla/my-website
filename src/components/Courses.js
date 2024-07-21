@@ -4,6 +4,7 @@ import '../style/Courses.css';
 import { useInView } from 'react-intersection-observer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptop, faCode, faUserGraduate, faBriefcase, faBusinessTime, faLightbulb } from '@fortawesome/free-solid-svg-icons';
+import { faReact } from '@fortawesome/free-brands-svg-icons'; // Correct import for the React icon
 
 const Courses = () => {
   const { ref, inView } = useInView({
@@ -18,6 +19,7 @@ const Courses = () => {
     { name: 'Work Skills Development', icon: faBriefcase },
     { name: 'Business Requirements Analysis', icon: faBusinessTime },
     { name: 'Critical Thinking and Decision Making', icon: faLightbulb },
+    { name: 'React Development', icon: faReact }, // Added React Development course
   ];
 
   return (

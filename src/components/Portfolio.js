@@ -2,11 +2,14 @@
 import React from 'react';
 import '../style/Portfolio.css';
 import { useInView } from 'react-intersection-observer';
-import banner from '../images/banner.png';
+import movie from '../images/movie.webp';
 import screen3 from '../images/screen_3.png';
 import screen4 from '../images/screen_4.png';
 import screen5 from '../images/screen_5.png';
 import calendar from '../images/calender.jfif';
+import ecommerce1 from '../images/screeny1.png'; // Add your images here
+import ecommerce2 from '../images/screeny2.png'; // Add your images here
+import ecommerce3 from '../images/screeny3.png'; // Add your images here
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
@@ -18,22 +21,28 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: 'To-Do List Application',
-      description: 'The To-Do List application is a classic example of a beginner-friendly React basic project. It involves creating a simple web application that allows users to create, read, update, and delete tasks. This project is a great way to understand the basics of React, including state management and event handling.',
-      image: banner,
-      link: 'http://example.com/project-one'
+      title: 'Movie Database',
+      description: 'The Movie Database is a popular project that involves building a web application for browsing and searching for movies. It allows users to view details about a movie, including its rating, cast, and plot. This project will teach you how to work with APIs, implement search and filtering, and create dynamic components.',
+      image: movie,
+      link: 'https://github.com/ENG-najla/React-movie-app-main'
     },
     {
       title: 'Expense Tracker',
       description: 'The Expense Tracker is a practical project that involves building a web application for tracking expenses. It allows users to input and categorize expenses, view spending trends, and generate reports. You will learn how to manage state, work with forms, and implement data visualization after doing this project.',
       images: [screen3, screen4, screen5],
-      link: 'http://example.com/project-two'
+      link: 'https://github.com/ENG-najla/expense-tracker-react-master'
     },
     {
       title: 'Calendar Application',
       description: 'The Calendar application is a practical project that involves building a web application for managing events and appointments. It allows users to create, view, and edit events on a calendar. This project will help you to work with dates and times in a React application.',
       image: calendar,
-      link: 'http://example.com/project-three'
+      link: 'https://github.com/ENG-najla/react-calendar-main/tree/main'
+    },
+    {
+      title: 'E-Commerce Website',
+      description: 'The E-Commerce Website is a comprehensive project that involves building a web application for an online store. It allows users to browse products, add them to a cart, and proceed to checkout. This project will help you learn about state management, routing, and working with external APIs in React.',
+      images: [ecommerce1, ecommerce2, ecommerce3],
+      link: 'https://github.com/ENG-najla/E-commerce-Website'
     }
     // Add more projects as needed
   ];
