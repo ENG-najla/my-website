@@ -2,7 +2,7 @@
 import React from 'react';
 import '../style/Portfolio.css';
 import { useInView } from 'react-intersection-observer';
-import movie from '../images/movie.webp';
+import movie from '../images/movie.png';
 import screen3 from '../images/screen_3.png';
 import screen4 from '../images/screen_4.png';
 import screen5 from '../images/screen_5.png';
